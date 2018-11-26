@@ -76,14 +76,14 @@ int main() {
             printf("Use 52 to show your hand, and -1 to skip\n");
         }
 
-        printf("The card to play on is: %s\n", revealCard(topCard));
+        printf("The card to play on is: %s\n\n", revealCard(topCard));
         scanf(" %d", &currentChoice);
         if((currentChoice>52)||(currentChoice<-1)){
             printf("Invalid choice, please retry\n");
         }
         //deal the player a new card
         else if(currentChoice == -1){
-            printf("Player skipped");
+            printf("Player skipped\n");
             if(playerTurn&1){
                 playerOne[countPlayerOneHand]= dealUnusedRandomCard(usedCards, &noOfUsedCards);
 
@@ -139,11 +139,11 @@ int main() {
         playerTurn++;
 
         if(leftInPlayerOneHand==0){
-            printf("Player 1 wins\n");
+            printf("\nPlayer 1 wins\n");
             break;
         }
         if (leftInPlayerTwoHand==0){
-            printf("Player 2 wins\n");
+            printf("\nPlayer 2 wins\n");
             break;
         }
     }
