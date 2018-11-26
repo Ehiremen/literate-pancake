@@ -1,5 +1,5 @@
 /*
- * Author: Ehiremen Ekore
+ * Author:  Ehiremen Ekore
  * Started: 11/2018
  */
 
@@ -275,6 +275,7 @@ int checkCardPlayed(int* topCardPtr, int cardPlayed, int* player, int sizeOfPlay
     int playerHasCard=0, cardMatchesTopCard=0, tempCardsMatch=0;
     int tempCard = player[cardPlayed];
     int tempTopCard = *topCardPtr;
+    int matchingCardIndex;
 
     //A check for repetition. If the card has already been played, this catches it.
     if (tempCard == -1){
@@ -287,6 +288,7 @@ int checkCardPlayed(int* topCardPtr, int cardPlayed, int* player, int sizeOfPlay
             playerHasCard = 1;
             //set the played card to -1 to show it's out of the player's hand.
             player[i] = -1;
+            matchingCardIndex = i;
         }
     }
 
@@ -308,6 +310,8 @@ int checkCardPlayed(int* topCardPtr, int cardPlayed, int* player, int sizeOfPlay
         }
         else {
             printf("Neither card suits nor values work. Please try another card or skip\n");
+            //restore the card the player tried to play to their hand.
+            player[matchingCardIndex] = tempCard;
         }
     }
     else{
