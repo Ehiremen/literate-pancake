@@ -153,7 +153,7 @@ int main() {
 int getRandomCard(){
     int randomChoice = 0;
 
-    //not using rand() and srand(TIME) because they return the same value until the program is re-compiled
+    //not using rand() and srand(TIME) because you're probably looking at this for your homework and it'd be nice for you to implement that yourself :)
     //using time(NULL) is the simplest readily guaranteed way to get somewhat varying values
     randomChoice += time(NULL)%52;
     randomChoice = ((randomChoice%52) + 1);
