@@ -1,3 +1,8 @@
+/*
+ * Author:  Ehiremen Ekore
+ * Started: 02/2019
+ */
+
 #include <iostream>
 #include <vector>
 #define QUIT_INPUT -99
