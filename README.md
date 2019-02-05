@@ -1,10 +1,17 @@
-# literate-pancake
+# **literate-pancake**
 These are random (mostly short) problems I encounter and attempt
-## Current problems solved/in progress:
+
+## Current problems solved/in progress
+### *Using C:*
 * [crazyEights.c](https://github.com/Ehiremen/literate-pancake#crazyeightsc)
 * [findMinUnusedInt.c](https://github.com/Ehiremen/literate-pancake#findminunusedintc)
+
+### *Using C++:*
 * [inputAndFindMinOfArr.cpp](https://github.com/Ehiremen/literate-pancake#inputAndFindMinOfArrcpp)
 
+
+
+## **DESCRIPTIONS**
 ### [crazyEights.c](crazyEights.c)
   A classic card game for two players (computer player not included).
 
