@@ -3,11 +3,11 @@ These are random (mostly short) problems I encounter and attempt
 
 ## Current problems solved/in progress
 ### *Using C:*
-* [crazyEights.c](crazyeights.c)
-* [findMinUnusedInt.c](https://github.com/Ehiremen/literate-pancake#findminunusedintc)
+* [crazyEights.c](crazyEights.c)
+* [findMinUnusedInt.c](findMinUnusedInt.c)
 
 ### *Using C++:*
-* [inputAndFindMinOfArr.cpp](https://github.com/Ehiremen/literate-pancake#inputAndFindMinOfArrcpp)
+* [inputAndFindMinOfArr.cpp](inputAndFindMinOfArr.cpp)
 
 
 
