@@ -1,4 +1,4 @@
-# **literate-pancake**
+# **random problems**
 These are random (mostly short) problems I encounter and attempt
 
 ## Current problems solved/in progress
