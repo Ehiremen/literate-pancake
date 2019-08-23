@@ -1,5 +1,5 @@
 # **random problems**
-These are random (mostly short) problems I encounter and attempt
+These are literally random problems I got from a source other than one of the other directories in this repo
 
 ## Current problems solved/in progress
 ### *Using C:*
