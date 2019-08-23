@@ -3,7 +3,7 @@ These are random (mostly short) problems I encounter and attempt
 
 ## Current problems solved/in progress
 ### *Using C:*
-* [crazyEights.c](https://github.com/Ehiremen/literate-pancake/random problems#crazyeightsc)
+* [crazyEights.c](crazyeights.c)
 * [findMinUnusedInt.c](https://github.com/Ehiremen/literate-pancake#findminunusedintc)
 
 ### *Using C++:*
