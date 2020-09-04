@@ -21,21 +21,22 @@ int main() {
 	cout << "Hi, we're going to take in your list of INTEGERS and fid the min." << endl;
 	readInput(arrToSort);
 	
+	if (arrToSort.size() == 0){
+	    cout << "No values entered; no minimum value" << endl;
+	    return 0;
+	}
+	
 	cout << "Your numbers: " << endl;
 	for(int t=0; t<arrToSort.size(); ++t){
 	    cout << arrToSort[t] << " ";
 	}
+
+	noOfUncheckedMembers = arrToSort.size();
+	minOfArr = arrToSort[0];
+	    
+	int finalMin = recursiveMinimumArray(&minOfArr, noOfUncheckedMembers, arrToSort);
 	
-	if (arrToSort.size() == 0){
-	    cout << "No values entered; no minimum value" << endl;
-	} else {
-	    noOfUncheckedMembers = arrToSort.size();
-	    minOfArr = arrToSort[0];
-	    
-	    int finalMin = recursiveMinimumArray(&minOfArr, noOfUncheckedMembers, arrToSort);
-	    
-	    cout << "\nThe minimum value is " << finalMin << endl;
-	}
+	cout << "\nThe minimum value is " << finalMin << endl;
 
 	return 0;
 }
