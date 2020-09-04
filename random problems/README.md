@@ -7,6 +7,7 @@ These are literally random problems I got from a source other than one of the ot
 * [findMinUnusedInt.c](findMinUnusedInt.c)
 
 ### *Using C++:*
+* [adjacencyMatrix.hpp](adjacencyMatrix.hpp)
 * [inputAndFindMinOfArr.cpp](inputAndFindMinOfArr.cpp)
 
 
@@ -18,5 +19,8 @@ These are literally random problems I got from a source other than one of the ot
 ### [findMinUnusedInt.c](findMinUnusedInt.c)
   Having a user input integers (signed or not) into an array, find and print the least positive integer (greater than 0) not included in the array.
   
+### [adjacencyMatrix.hpp](adjacencyMatrix.hpp)
+  Explores using queues and stacks to perform bfs and dfs (respectively) on the adjacency matrix of a graph
+
 ### [inputAndFindMinOfArr.cpp](inputAndFindMinOfArr.cpp)
   Allows a user to populate a vector with different integers and uses recursion to find the smallest number in the vector.
